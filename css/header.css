@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.cabecalho__logo > a{
+.cabecalho__logo__ancora{
     text-decoration: none;
     color: var(--cor-fonte);
     display: flex;
