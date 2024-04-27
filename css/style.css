@@ -1,0 +1,119 @@
+@import url("./header.css");
+@import url("./footer.css");
+
+:root {
+  --cor-de-fundo: #ebd9b4;
+  --cor-primaria: #f9efdb;
+  --cor-secundaria: #9dbc98;
+  --cor-fonte: #638889;
+  --tamanho-fonte-titulo: 30px;
+  --tamanho-fonte-subtitulo: 20px;
+  --tamanho-fonte-texto: 15px;
+  --peso-fonte-subtitulo: 700;
+  --peso-fonte-texto: 500;
+  --fonte-estilo: "Roboto";
+}
+
+body {
+  background-color: var(--cor-primaria);
+  font-family: var(--fonte-estilo);
+  color: var(--cor-secundaria);
+}
+
+.cuidados__linha > h2,
+.cuidados__perfumes > h2 {
+  padding: 15px 10px;
+  text-align: center;
+  font-size: var(--tamanho-fonte-subtitulo);
+  font-weight: var(--peso-fonte-subtitulo);
+}
+
+.cuidados__linha__lista {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+}
+
+.cuidados__linha__lista__item{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  color: var(--cor-primaria);
+  font-weight: 600;
+}
+
+.cuidados__linha__lista__item > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cuidados__linha__lista__item > a{
+  width:25%;
+  text-decoration: none;
+  text-align: center;
+  color: var(--cor-primaria);
+  position: absolute;
+}
+
+.cuidados__linha__lista__item > a > p {
+  
+  font-size: 15px;
+  text-wrap: wrap;
+  width: 100%;
+}
+
+
+.cuidados__perfumes__lista {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap:20px;
+  margin-bottom: 10px;
+}
+
+.cuidados__perfumes__lista > h3{
+  width: 100%;
+  padding:10px 0;
+  background-color: var(--cor-de-fundo);
+  text-align: center;
+}
+
+.cuidados__perfumes__lista > h4{
+  width: 100%;
+  padding:10px 0;
+  text-align: center;
+}
+
+
+.cuidados__perfumes__lista__item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  
+  color: var(--cor-primaria);
+  font-weight: 600;
+}
+
+.cuidados__perfumes__lista__item > img{
+  width:40%;
+  border-radius: 10px;
+}
+
+
+.cuidados__perfumes__lista__item > p {
+  width:40%;
+  color: var(--cor-fonte);
+  font-size: 12px;
+}
+
+.cabelo > p{
+  text-align:left;
+}
