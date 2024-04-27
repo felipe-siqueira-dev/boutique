@@ -117,3 +117,18 @@ body {
 .cabelo > p{
   text-align:left;
 }
+
+.sobreNos > h2{
+  font-size: var(--tamanho-fonte-titulo);
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.sobreNos > p{
+  font-size: var(--tamanho-fonte-texto);
+  padding: 0 10%;
+  padding-bottom:10px ;
+  width: 80%;
+  text-align: justify;
+}
